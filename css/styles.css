@@ -256,33 +256,36 @@ button:focus {
     background-color: #0056b3;
 }
 
+
 /* Footer */
-footer {
+.footer-section {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    text-align: center;
+    padding: 20px;
+}
 
-    .footer-class {
-        background-color: #2e2f42;
-    }
+/* Logo stili */
+.logo-class {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
 
-    /* Logo için CSS */
-    .logo-class {
-        font-family: "Raleway";
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-    }
+/* Logo içindeki span stili */
+.logo-span {
+    color: #2e2f42;
+}
 
-    /* <span> etiketi için CSS */
-    .span-class {
-        color: #2e2f42;
-    }
-
-    /* <p> etiketi için CSS */
-    .paragraph-class {
-        line-height: 1.5;
-        color: #F4F4FD;
-        letter-spacing: 0.02em;
-    }
+/* Footer paragraf stili */
+.footer-paragraph {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    margin-top: 10px;
 }
