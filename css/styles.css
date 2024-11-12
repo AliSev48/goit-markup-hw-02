@@ -117,7 +117,7 @@ main {
 
 /* Button Styling */
 .order-button {
-    background-color: #4D5AE5;
+    background-color: #404BBF;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -257,7 +257,7 @@ button:focus {
 }
 
 
-/* Footer */
+/* Footer */ 
 .footer-section {
     background-color: #2e2f42;
     color: #f4f4fd;
@@ -278,9 +278,10 @@ button:focus {
 }
 
 /* Logo içindeki span stili */
-.logo-span {
+.span-class {
     color: #2e2f42;
 }
+
 
 /* Footer paragraf stili */
 .footer-paragraph {
