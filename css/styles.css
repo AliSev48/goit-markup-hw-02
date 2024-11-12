@@ -255,8 +255,31 @@ button:focus {
 
 /* Footer */
 footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
-    padding: 1.5rem;
-    text-align: center;
+
+    .footer-class {
+        background-color: #2e2f42;
+    }
+
+    /* Logo için CSS */
+    .logo-class {
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+    }
+
+    /* <span> etiketi için CSS */
+    .span-class {
+        color: #2e2f42;
+    }
+
+    /* <p> etiketi için CSS */
+    .paragraph-class {
+        line-height: 1.5;
+        color: #F4F4FD;
+        letter-spacing: 0.02em;
+    }
 }
