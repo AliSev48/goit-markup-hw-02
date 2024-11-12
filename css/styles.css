@@ -43,50 +43,56 @@ h3 {
     font-size: 1.25rem;
     font-weight: 700;
 }
-
-/* Header */
-header {
-    display: flex;
-    width: 1440px;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: #E7E9FC;
-    
+/* Logo için stil */
+.webstudio_logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    color: #2E2F42;
+.studio {
+    color: #2e2f42;
 }
 
-header nav a {
-
-    text-decoration: none;
+/* Menü linkleri için stil */
+.home_link,
+.portfolio_link,
+.contact_link {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-header nav a:hover,
-header nav a:focus {
-    color: #007bff;
+.home_link:hover,
+.portfolio_link:hover,
+.contact_link:hover,
+.home_link:focus,
+.portfolio_link:focus,
+.contact_link:focus {
+    color: #404bbf;
 }
 
-/* Address */
-address ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+/* Adres kısmı için stil */
+address {
+    font-style: normal;
 }
 
 address a {
-    color: #2E2F42;
-    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 address a:hover,
 address a:focus {
-    color: #007bff;
+    color: #404bbf;
 }
 
 /* Ana Bölüm */
