@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #ffffff;
 
 }
@@ -43,60 +43,65 @@ h3 {
     font-size: 1.25rem;
     font-weight: 700;
 }
-/* Logo için stil */
-.webstudio_logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
 
-.studio {
-    color: #2e2f42;
-}
+/* Logo stili */
+    .site-logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+    }
 
-/* Menü linkleri için stil */
-.studio_link,
-.portfolio_link,
-.contact_link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+    .studio-text {
+        color: #2e2f42;
+    }
 
-.studio_link:hover,
-.portfolio_link:hover,
-.contact_link:hover,
-.home_link:focus,
-.portfolio_link:focus,
-.contact_link:focus {
-    color: #404bbf;
-}
+    /* Navigation link styles */
+    .nav-link-home,
+    .nav-link-portfolio,
+    .nav-link-contact {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
 
-/* Adres kısmı için stil */
-.address_info {
-    font-style: normal;
-}
+    .nav-link-home:hover,
+    .nav-link-home:focus,
+    .nav-link-portfolio:hover,
+    .nav-link-portfolio:focus,
+    .nav-link-contact:hover,
+    .nav-link-contact:focus {
+        color: #404bbf;
+    }
 
-.contact_email,
-.contact_phone {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+    /* Address info styles */
+    .contact-info {
+        font-style: normal;
+    }
 
-.contact_email:hover,
-.contact_email:focus,
-.contact_phone:hover,
-.contact_phone:focus {
-    color: #404bbf;
-}
+    .contact-email,
+    .contact-phone {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
+    .contact-email:hover,
+    .contact-phone:hover {
+        color: #404bbf;
+    }
+
+    .contact-email:focus,
+    .contact-phone:focus {
+        color: #404bbf;
+    }
+
 /* Ana Bölüm */
 main {
     padding: 2rem;
@@ -126,15 +131,15 @@ main {
     color: #ffffff;
     cursor: pointer;
 }
-button:focus {
-    background-color: #404BBF;
-
-    outline: none;}
-
-.order-button:hover,
-.order-button:focus {
-    background-color: #4D5AE5;
+     button:hover {
+        background-color: #404BBF;
 }
+    button:focus {
+        background-color: #404BBF;
+       
+        outline: none;
+        /
+    }
 
 /* Hizmetler Bölümü */
 .services-section {
