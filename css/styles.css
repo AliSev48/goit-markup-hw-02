@@ -59,7 +59,7 @@ h3 {
 }
 
 /* Menü linkleri için stil */
-.home_link,
+.studio_link,
 .portfolio_link,
 .contact_link {
     font-weight: 500;
@@ -69,7 +69,7 @@ h3 {
     color: #2e2f42;
 }
 
-.home_link:hover,
+.studio_link:hover,
 .portfolio_link:hover,
 .contact_link:hover,
 .home_link:focus,
@@ -79,28 +79,57 @@ h3 {
 }
 
 /* Adres kısmı için stil */
-address {
+.address_info {
     font-style: normal;
 }
 
-address a {
+.contact_email,
+.contact_phone {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-address a:hover,
-address a:focus {
+.contact_email:hover,
+.contact_email:focus,
+.contact_phone:hover,
+.contact_phone:focus {
     color: #404bbf;
 }
-
 /* Ana Bölüm */
 main {
     padding: 2rem;
 }
-.mainup {
-    background-color:#2E2F42;
+/* Section */
+.main-section {
+    background-color: #2e2f42;
+}
+
+/* H1 Styling */
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+/* Button Styling */
+.order-button {
+    background-color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
 }
 
 /* Hizmetler Bölümü */
