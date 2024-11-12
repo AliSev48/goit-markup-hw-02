@@ -129,47 +129,45 @@ main {
 
 .order-button:hover,
 .order-button:focus {
-    background-color: #404BBF;
+    background-color: #4D5AE5;
 }
 
 /* Hizmetler Bölümü */
-.services {
-    background-color: #ffffff;
-    padding: 2rem 0;
+.services-section {
+    /* <section> arka plan rengi */
+    background-color: #f4f4fd;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
-
-
-
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.services h2 {
-    margin-bottom: 1.5rem;
-    color: #2E2F42;
+.service-item {
+    /* Liste elemanlarına (li) özel stil tanımları */
+    background-color: #FFFFFF;
 }
 
-.services ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    flex-wrap: wrap;
+.service-title {
+    /* <h3> stil özellikleri */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.services li {
-    max-width: 250px;
-    padding: 1rem;
+.service-description {
+    /* <p> stil özellikleri */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-
-.services h3 {
-    font-size: 1.25rem;
-    color: #2E2F42;
-    margin-bottom: 0.5rem;
-}
-
-.services p {
-    font-size: 1rem;
-}
-
 
 /* Team Section Stilleri */
 .team-section {
@@ -278,8 +276,9 @@ button:focus {
 }
 
 /* Logo içindeki span stili */
-.span-class {
+.studio-span {
     color: #2e2f42;
+
 }
 
 
